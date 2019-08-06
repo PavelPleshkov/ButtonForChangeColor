@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(50px, auto) 1fr 40px;
+    background-color: #fff;
+    transition: 1s;
+}
+
+header {
+    color: rgba(97, 66, 29, 0.774);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.newContainer {
+    background-color: rgb(182, 157, 157);
+    transition: 1s;
+}
+
+.btn {
+    width: 200px;
+    background-color: #050505;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 5px;
+    outline: none;
+    border-top: 3px solid #ddd;
+    border-left: 3px solid #ddd;
+    border-bottom: 3px solid #888;
+    border-right: 3px solid #888;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px #050505;
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.99, 0.99);
+    transition: 0.3s;
+    box-shadow: 0 0 0 #050505;
+    border: 3px solid #fff;
+    font-size: 0.97rem;
+    line-height: 15px;
+}
+
+.try {
+    transform: scale(0.95, 0.95);
+    transition: 0.3s;
+    background-color: rgb(153, 28, 28);
+    box-shadow: 4px 4px 10px inset #222222;
+    text-shadow: 0 0 3px  #050505;
+    color: rgba(248, 213, 213, 0.726);
+    border-top: 3px solid #888;
+    border-left: 3px solid #888;
+    border-bottom: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+    line-height: 15px;
+}
+
+.try:hover {
+    cursor: grabbing;
+}
+
+.try:active {
+    transform: scale(0.95, 0.95);
+    transition: 0.3s;
+    box-shadow: 0 0 0 inset #050505;
+    text-shadow: 0 0 3px  #050505;
+    border-top: 3px solid #888;
+    border-left: 3px solid #888;
+    border-bottom: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    font-size: 0.97rem;
+    line-height: 15px;
+}
+
+footer {
+    color: rgba(97, 66, 29, 0.774);
+    text-align: center;
+    padding-top: 10px;
+}
